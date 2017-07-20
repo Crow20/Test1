@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="@bool/myprefernce_default"
+        android:key="autoupdate"
+        android:summary="Включить автообновление"
+        android:title="Автообновление"/>
+    <EditTextPreference
+        android:defaultValue="1"
+        android:key="timeupdate"
+        android:numeric="integer"
+        android:summary="Время до следующего обновления"
+        android:title="Интервал обновлений"
+        android:dependency="autoupdate"/>
+</PreferenceScreen>

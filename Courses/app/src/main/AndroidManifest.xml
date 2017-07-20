@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sike.courses">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:name=".CoursesApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Курсы"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MenuActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!-- android:label="@string/title_activity_menu" -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".service.MyService"
+            android:enabled="true"
+            android:exported="false"/>
+
+        <service
+            android:name=".service.NotificationService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":notification"/>
+
+        <activity
+            android:name=".activity.PrefActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.OPTIONS_CHANGED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".activity.InfoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.INFO"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Courses</string>
+    <string name="action_settings">Настройки</string>
+    <string name="title_activity_menu">MenuActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="info_title">Приложение разработано компанией</string>
+    <string name="info_paragraph"> Студия разрабатывает мобильные решения: от формализации цели до публикации в магазинах приложений и выработке
+    стратегии дальнейшего развития приложений. В качестве платформ для разработки мы используем iOS и Android для нативных приложений,
+    Xamarin и PhoneGap для кроссплатформенных приложений, Unity для разработки приложений с дополненной и виртуальной реальностью.</string>
+    <string name="contacts_title">Студия мобильных приложений</string>
+    <string name="contacts_text">mobileapps@sike.ru\n
+    +7 961 57 57 070\n\n
+
+    Facebook Вконтакте Clutch  (ссылки)\n\n
+
+    ООО «КС Плюс»\n
+    455023, Магнитогорск\n
+    пр. Металлургов, 7, офис 2\n
+    с 9:00 до 18:00</string>
+    <string name="application_title">Данное приложение дает возможность просматривать текущие курсы валют и биржевые показатели.</string>
+    <string name="application_text">Приложение позволяет:\n
+- просматривать текущие значения курсов и показателей;\n
+- автоматически обновлять показатели с определённой периодичностью при запущенном приложении;\n
+- получать уведомления об установке новых значений курса ЦБ.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
